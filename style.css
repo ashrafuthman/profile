@@ -1,0 +1,119 @@
+body {
+  background-color: #eee;
+}
+
+h1 {
+  color: #2ca6a4;
+  font-size: 22px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #aaa;
+}
+
+h3 {
+  font-weight: normal;
+  color: #9cafb7;
+  text-align: center;
+
+}
+
+p {
+  color: #ccc;
+  text-align: justify;
+  padding: 16px;
+
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #bbb;
+}
+
+ul {
+  color: #ddd;
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+ .text-center {
+  text-align: center;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("images/web-background.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #profile {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #eee;
+ }
+
+ .social-media {
+  display: inline-block;
+  padding: 20px;
+  padding-left: 0;
+ }
+
+.img-size {
+  width: 80px;
+  height: 80px;
+  bottom: 10px;
+  padding: 16px;
+}
+
+/*#movies-title {
+  padding: 16px;
+  position: relative;
+  top: 7px;
+  left: -77px;
+
+}*/
+
+#movies-desc {
+  position: relative;
+  top: -22px;
+  left: 0px;
+}
+
+#top-p {
+ text-align: center;
+}
+
+#h2-movies {
+  font-size: 20px;
+}
